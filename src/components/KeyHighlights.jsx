@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaUserGraduate, FaHospital, FaMedal, FaUsers } from 'react-icons/fa';
+import { FaUserGraduate, FaHospital, FaMedal, FaUsers , FaChalkboardTeacher } from 'react-icons/fa';
 
 const highlights = [
   {
@@ -42,7 +42,7 @@ const KeyHighlights = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto">
         {highlights.map((item, index) => (
           <motion.div
             key={index}

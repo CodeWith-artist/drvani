@@ -48,7 +48,7 @@ const DigitalHealthVision = () => {
       </div>
 
       {/* Stats Bar */}
-      <div className="bg-neutral-900 rounded-xl mt-16 py-8 px-4 text-center max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="bg-neutral-900 rounded-xl mt-16 py-8 px-4 text-center max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
         {stats.map((item, i) => (
           <div key={i}>
             <div className="text-2xl font-bold text-blue-500">{item.value}</div>
