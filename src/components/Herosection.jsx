@@ -1,9 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SaveContactButton from './SaveContactButton';
+import Photo from '../assets/photo.png'
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-black text-white flex items-center justify-center px-6">
+    <section className="h-screen bg-black text-white flex items-center justify-center px-16md:flex-row flex-col">
+      <motion.div
+        initial={{ opacity: 0 , y: -50 }}
+        animate={{ opacity: 1 , y: 0 }}
+        transition={{ duration: 0.8 }}      
+      >
+        <img src={Photo} alt="Dr. AB. Wani" className='rounded-ful '/>
+      </motion.div>
       <div className="max-w-5xl w-full text-center">
         <motion.h1 
           className="text-4xl md:text-6xl font-bold"
@@ -38,11 +47,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
-          <a href="#achievements">
-            <button className="bg-primaryBlue hover:bg-blue-600 transition-all px-6 py-3 text-white font-semibold rounded-xl shadow-lg">
-              View Achievements
-            </button>
-          </a>
+         <SaveContactButton />
         </motion.div>
       </div>
     </section>
