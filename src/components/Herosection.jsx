@@ -11,7 +11,7 @@ const HeroSection = () => {
         animate={{ opacity: 1 , y: 0 }}
         transition={{ duration: 0.8 }}      
       >
-        <img src={Photo} alt="Dr. AB. Wani" className='rounded-ful '/>
+        <img src={Photo} alt="Dr. AB. Wani" className='rounded-ful w-96 md:w-80 '/>
       </motion.div>
       <div className="max-w-5xl w-full text-center">
         <motion.h1 
