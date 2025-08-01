@@ -23,7 +23,7 @@ const ContactEnquiry = () => {
                 <span className="text-sm font-medium">Emails</span>
               </div>
               <p className="text-gray-300 text-xs">
-                <a href="mailto:info@bilmed.in" className="hover:underline">info@bilmed.in</a><br />
+                <a href="mailto:admin@bilmedgroup.com" className="hover:underline">admin@bilmedgroup.com</a><br />
                 <a href="mailto:contact@haleqad.net" className="hover:underline">contact@haleqad.net</a>
               </p>
             </div>
@@ -34,8 +34,8 @@ const ContactEnquiry = () => {
                 <span className="text-sm font-medium">Websites</span>
               </div>
               <p className="text-gray-300 text-xs">
-                <a href="https://www.bilmed.net" target="_blank" rel="noreferrer" className="hover:underline">www.bilmed.in</a><br />
-                <a href="https://www.bilmedgroup.com" target="_blank" rel="noreferrer" className="hover:underline">www.bilmed.in</a><br />
+                <a href="https://www.bilmed.net" target="_blank" rel="noreferrer" className="hover:underline">www.bilmed.net</a><br />
+                <a href="https://www.bilmedgroup.com" target="_blank" rel="noreferrer" className="hover:underline">www.bilmedgroup.com</a><br />
                 <a href="https://www.haleqad.net" target="_blank" rel="noreferrer" className="hover:underline">www.haleqad.net</a>
               </p>
             </div>
@@ -43,7 +43,7 @@ const ContactEnquiry = () => {
 
           <div className="mt-8">
             <a
-              href="mailto:info@bilmed.in"
+              href="mailto:admin@bilmedgroup.com"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-500 transition"
             >
               Send an Email
