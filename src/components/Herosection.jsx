@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SaveContactButton from './SaveContactButton';
 import Photo from '../assets/photo.png'
+import SocialmediaIcons from './SocialmediaIcons';
 
 const HeroSection = () => {
   return (
@@ -47,6 +48,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
+          <SocialmediaIcons />
          <SaveContactButton />
         </motion.div>
       </div>
